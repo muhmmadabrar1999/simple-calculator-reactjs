@@ -1,14 +1,7 @@
+# Goal
+```
+Build a simple calculator using ReactJs 
+```
 # Description
-```
-Build a puzzle game using C++ 
-```
-```
-# Goal:
-```
-The goal of the puzzle game is to rearrange the numbered tiles into numerical order from left to right, top to bottom, with the empty space in the bottom right corner.
 
-To achieve this, you can move the tiles one at a time into the empty space. Each time you move a tile, you should consider the puzzle as a new state and continue until you have reached the goal state (numerical order).
-
-The number of moves required to solve the puzzle is known as the puzzle's "optimal solution" or "minimal number of moves."
-```
-```
+This calculator application uses React's state and event handling to perform the basic mathematical operations of addition, subtraction, multiplication, and division. The input field is bound to the inputValue state variable, which is updated on every change event. When a user clicks on an operation button, the appropriate function is called to update the result state variable and reset the inputValue. The result is then displayed in a h2 element.
